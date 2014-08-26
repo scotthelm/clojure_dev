@@ -13,7 +13,7 @@
 * installs postgresql
 * installs sqlite3
 * installs Leiningen (which installs clojure)
-** The current version is 2.4.2 (2.4.3 has an issue with repl)
+  - The current version is 2.4.2 (2.4.3 has an issue with repl)
 
 ## Applications
 
