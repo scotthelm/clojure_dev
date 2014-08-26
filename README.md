@@ -22,7 +22,7 @@ their own git repos, so this repository for basic setup can be open source.
 
 ## Many Thanks
 
-To the goop people of Oracle (Virtualbox), Vagrant, Clojure, Leiningen, vim,
+To the good people of Oracle (Virtualbox), Vagrant, Clojure, Leiningen, vim,
 git, postgresql and sqlite3 for all of their contributions.
 
 
