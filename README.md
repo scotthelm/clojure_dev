@@ -6,7 +6,7 @@
 * A vagrant file for creating and configuring a virtual Ubuntu Precise machine.
 * A set of puppet modules for performing provisioning tasks
 
-## Services Enabaled
+## Services Enabled
 
 * installs vim
 * installs git
