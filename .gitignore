@@ -1,2 +1,3 @@
 .vagrant/
-apps/
+apps/*
+!apps/.gitkeep
