@@ -66,17 +66,17 @@ exec { 'get_vundle':
   ],
 }
 
-exec { 'git_setup_username':
-  command     => 'git config --global user.email "helm.scott@gmail.com"',
-  path        => ['/usr/bin'],
-  require     => Package['git'],
-}
-
-exec { 'git_setup_name':
-  command     => 'git config --global user.name "Scott Helm"',
-  path        => ['/usr/bin'],
-  require     => Package['git'],
-}
+# exec { 'git_setup_username':
+#   command     => 'git config --global user.email "helm.scott@gmail.com"',
+#   path        => ['/usr/bin'],
+#   require     => Package['git'],
+# }
+# 
+# exec { 'git_setup_name':
+#   command     => 'git config --global user.name "Scott Helm"',
+#   path        => ['/usr/bin'],
+#   require     => Package['git'],
+# }
 
 package { 'openjdk-7-jdk': }
 
