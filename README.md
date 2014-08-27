@@ -6,7 +6,7 @@
 * A vagrant file for creating and configuring a virtual Ubuntu Precise machine.
 * A set of puppet modules for performing provisioning tasks
 
-## Services Enabaled
+## Services Enabled
 
 * installs vim
 * installs git
@@ -38,11 +38,11 @@ git, postgresql and sqlite3 for all of their contributions.
 
 ## First Runs
 
-`vagrant up`
+`vagrant up --provision`
 
 It will probably fail the first time. Fear not - `vagrant ssh` into your machine
 and edit `/home/vagrant/.ssh/authorized_keys` and add your github_key_file.pub.
-Exit the vm and run `vagrant halt`, then `vagrant up` again
+Exit the vm and run `vagrant halt`, then `vagrant up --provision` again
 
 If you get an error that says something about "Failed to mount folders on linux
 guest", then `vagrant ssh` back into the machine and run this command
