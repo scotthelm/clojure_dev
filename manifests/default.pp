@@ -25,11 +25,11 @@ class { 'postgresql::server':
   require => Class['locales'],
 }
 
-postgresql::server::db { 'statsifyme':
-  user     => 'statsifyme_login',
+postgresql::server::db { 'app_db':
+  user     => 'app_db_login',
   password => postgresql_password(
-    'statsifyme_login',
-    'I2znNlRWCbWIcuQTmxMUEvfvG5pGljhQ'),
+    'app_db_login',
+    'change_me'),
 }
 
 postgresql::server::role { 'test_login':
